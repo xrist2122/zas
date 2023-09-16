@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+}
+
+.container {
+    margin: 1rem auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+}
+
+.custom-padding {
+    padding: 1rem;
+}
+
+ .logo {
+    width: 650px;
+        height: 200px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 60px;
+        font-size: 0.875rem;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+ }
+
+.oproekte {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 0.875rem;
+}
